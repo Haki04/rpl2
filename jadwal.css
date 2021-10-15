@@ -56,3 +56,9 @@ div.j h1{
     color: black;
     font-weight: bold;
 }
+
+.pentoy{
+  width: 150px;
+  height: 150px;
+  border-radius:10px;
+}
