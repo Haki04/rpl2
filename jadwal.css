@@ -1,0 +1,58 @@
+
+
+body{
+    width: 600px;
+    background-image: url('smkn1selong.jpg');
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 0 -240px;
+}
+
+div.pg {
+    background-color: transparent;
+    margin:0 auto;
+    width: 600px;
+    margin-top: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.pg table{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Sans-Serif;
+    margin: 0 auto;
+    width: 500px;
+}
+
+div.pg table tr th.p td.s{
+    padding: 2px;
+    
+}
+
+div.pg table{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow:  2px 2px;
+}
+
+div.pg table tr th{
+    background-color: salmon;
+    color: white;
+    
+}
+
+div.j {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 50%;
+    overflow: hidden;
+}
+
+div.j h1{
+    padding: 2px;
+    font-family: Sans-Serif;
+    color: black;
+    font-weight: bold;
+}
