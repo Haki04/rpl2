@@ -1,0 +1,594 @@
+* {
+    font-family: arial;
+    text-align: center;
+    
+}
+
+
+
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 1000px;
+    background-color: #345B63;
+
+}
+
+div.bg {
+    margin: auto;
+    width: 900px;
+    height: auto;
+    background: linear-gradient(to bottom right, #BEAEE2,#D4B499);
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px white, -7px -7px 10px white;
+
+}
+
+div.konten .senin,.selasa,.rabu,.kamis,.jumat,.sabtu {
+    width: 110px;
+    height: 70px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.8s;
+    float: left;
+    margin: 20px;
+}
+
+div.judul {
+    width: 350px;
+    height: auto;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+marquee h1 {
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+div.clear{
+    clear: left;
+}
+
+div.x{
+    background-color: transparent;
+    width: 0;
+    border-radius: 20px;
+    height: 0;
+    margin: 0 0;
+    position: relative;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.senin div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.senin div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.selasa div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.selasa div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.rabu div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.rabu div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.kamis div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.kamis div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.jumat div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.jumat div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+div.sabtu div.op{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: 1s;
+}
+
+div.sabtu div.op div.jd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+
+/* BAGIAN H AN */
+h5,h3.x{
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: transparent;
+}
+
+h2 {
+    line-height: 50%;
+}
+
+h3 {
+ 
+    color: transparent;
+}
+
+h4{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+/* BAGIAN KOTAK TEKEN*/
+
+div.konten div.senin {
+    background-color: #5AA897;
+}
+
+div.konten div.selasa {
+    background-color: #7868E6;
+}
+
+div.konten div.rabu {
+    background-color: #83A95C;
+}
+
+div.konten div.kamis {
+    background-color: #FFD66B;
+}
+
+div.konten div.jumat {
+    background-color: #F05454;
+}
+
+div.konten div.sabtu {
+    background-color: #32E0C4;
+
+}
+
+
+/*TARGET*/
+
+
+
+/* HOVER */
+
+/* SENIN */
+div.senin:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.senin:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.senin:hover h3{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div.senin:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.senin:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/* SELASA */
+
+div.selasa:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.selasa:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.selasa:hover h3{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+div.selasa:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.selasa:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+/* RABU */
+div.rabu:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.rabu:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.rabu:hover h3{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+div.rabu:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.rabu:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+/* KAMIS */
+
+div.kamis:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.kamis:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.kamis:hover h3{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+div.kamis:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.kamis:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* jumat */
+
+div.jumat:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.jumat:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.jumat:hover h3{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+div.jumat:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.jumat:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* SABTU */
+
+div.sabtu:hover div.op {
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+div.sabtu:hover div.op div.jd{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+div.sabtu:hover h3{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+div.sabtu:hover div.x{
+    background-color: #557571;
+    width: 70px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    margin: 250px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+div.sabtu:hover h5{
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* konten */
+
+div.konten div.senin:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.konten div.selasa:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.konten div.rabu:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.konten div.kamis:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.konten div.jumat:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.konten div.sabtu:hover {
+    animation: kotak 1s 2 alternate;
+}
+
+div.by{
+    width: 500px;
+    background-color: transparent;
+    margin: auto;
+}
+
+div.by h1.by{
+    font-size: 70px;
+    text-shadow: 0 5px 20px  white;
+    animation: h1 3s infinite;
+}
+
+
+@keyframes h1{
+    0%{
+        color: #87A7B3;
+    }
+    20%{
+        color: #D5BFBF;
+    }
+    
+    40%{
+        color: #7FC8A9;
+    }
+    
+    60%{
+        color: #94D0CC;
+    }
+    80%{
+        color: #F7A440;
+    }
+    
+    100%{
+        color: #00ADB5;
+    }
+}
+
+@keyframes kotak{
+    100%{
+            width: 110px;
+            height: 200px;
+            border-radius: 30px;
+        
+    }
+}
